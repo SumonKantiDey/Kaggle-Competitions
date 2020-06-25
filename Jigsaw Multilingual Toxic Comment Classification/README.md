@@ -21,7 +21,7 @@ The target of this competition is to build machine learning models that can iden
 
 - [RoBERTa XLM MLM](https://www.kaggle.com/riblidezso/train-from-mlm-finetuned-xlm-roberta-large) based training which was pretrained on domain specific data.
 - Best training policy
-- Pseudo Labelling techinique
+- Pseudo Labeling techinique
 
 :v: I have achieved Bronze model and the position was **(151/1621)**.
 

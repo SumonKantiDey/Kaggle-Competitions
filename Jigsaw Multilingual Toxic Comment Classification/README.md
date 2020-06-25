@@ -6,15 +6,15 @@ The target of this competition is to build machine learning models that can iden
 
 # Summary of my approach
 ```
-- Translated Data
-- Preprocessing(Not help)
-- Pseudo Labelling (not helped me somehow)
+- Used Translated Data
+- Preprocessing (Not helped)
+- Pseudo labeling
 - Label smoothing
 - Learning Rate scheduling
 - Multi-Stage Training (after training on english and translated data, finetuned further on validation dataset for 1-2 epochs.)
-- Used models RoBERTa XLM pre-trained
-- Also combination of three model on top XLM RoBERTA large
-- Finally used Ensemble techinique
+- Used  RoBERTa XLM pre-trained models
+- Different architectures on top of XLM-Roberta
+- Finally used Ensemble Gmean of top score public submissions
 ```
 
 # What I have learnt 
@@ -23,5 +23,5 @@ The target of this competition is to build machine learning models that can iden
 - Best training policy
 - Pseudo Labelling techinique
 
-:v:
+:v: I have achieved Bronze model and the position was **(151/1621)**.
 

@@ -23,5 +23,9 @@ The target of this competition is to build machine learning models that can iden
 - Best training policy
 - Pseudo Labeling techinique
 
+# Papers
+- [Fine-Tuning Pretrained Language Models](https://arxiv.org/pdf/2002.06305.pdf)
+- [Bagging BERT Models forRobust Aggression Identification](https://www.aclweb.org/anthology/2020.trac-1.9.pdf)
+
 :v: I have achieved Bronze model in this competition and the position was **(151/1621)**.
 

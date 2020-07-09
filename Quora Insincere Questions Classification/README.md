@@ -12,6 +12,6 @@ Submissions are evaluated on F1 score between the predicted and the observed tar
 I have tried to finetune a roBERTa base transformer model to predict whether a Quora question is sincere or insincere.
 ### Database architecture
 <p float="left">
- <img src="https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/img/one.png" width="100" >
-<img src="https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/img/two.png" width="100" >
+ <img src="https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/img/one.png" width="450" >
+<img src="https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/img/two.png" width="450" >
 </p>

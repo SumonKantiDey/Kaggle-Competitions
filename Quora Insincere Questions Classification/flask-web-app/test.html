@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>  
+<html>  
+  
+<head>  
+    <title>Reseting the form without reset method</title>  
+    <script> 
+        function fun(){ 
+            document.getElementById('name').value=''; 
+            } 
+    </script> 
+    <style> 
+        input[type=submit] { 
+            position: relative; 
+            float: right; 
+        } 
+    </style> 
+</head>  
+  
+<body>  
+    <center>  
+        <h1 style="color:green">GeeksforGeeks</h1>  
+        <b>  
+          clear form after submit in Javascript  
+          without using reset 
+        </b>  
+        <form id="d" action="/cgi-bin/test.cgi" name="geek">  
+            <table cellspacing="0" cellpadding="3" border="1">  
+                <tr>  
+                    <td align="center">Ph no</td>  
+                    <td>  
+                        <input type="tel" id="name"/>  
+                    </td>  
+                </tr>  
+                <tr>  
+                    <td align="center"></td>  
+                    <td>  
+                        <input onclick="fun()" 
+                               type="submit" value="Submit" />  
+                    </td>  
+                </tr>  
+            </table>  
+        </form>  
+  
+    </center>  
+</body>  
+  
+</html>  

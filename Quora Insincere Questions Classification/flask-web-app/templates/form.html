@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>{{ title }} Sentiment Analysis</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1>Check Quora Question is Sincere or not</h1>
+        
+            <form method="POST", action="/text">
+                <textarea name="text1" placeholder="Say Something: ...." rows="10" cols="109"></textarea><br><br>
+
+                <input class="btn example_a" type="submit" value="submit">
+            </form>
+            <form method="POST", action="/">
+                <input class="btn example_a" type="submit" value="refresh">
+            </form>
+            
+        {% if final %}
+        <div class="text-section">
+        <pre>Input text: {{text1}}</pre>
+        <b>Predicted class:  <code>&lt;{{ final }}&gt;</code></b>
+            {% else %}
+            <p></p>
+            {% endif %}
+        </div>
+    </body>
+</html>

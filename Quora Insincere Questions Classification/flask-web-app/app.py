@@ -1,14 +1,11 @@
 from flask import Flask, request, render_template
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import nltk
-from nltk.corpus import stopwords
+from flask_ngrok import run_with_ngrok
 
-nltk.download('stopwords')
+from model_process import predict_insincerity
 
-set(stopwords.words('english'))
 app = Flask(__name__)
+run_with_ngrok(app)
 
 @app.route('/')
 def my_form():
@@ -21,20 +18,16 @@ def my_form1():
 @app.route('/text', methods=['GET','POST'])
 def my_form_post():
     if request.method == 'POST':
-        stop_words = stopwords.words('english')
-        text1 = request.form['text1'].lower()
+        text = request.form['text1'].lower()
 
-        print(text1)
+        output = predict_insincerity(text,64)
+        output = list(output)[0]
 
-        processed_doc1 = ' '.join([word for word in text1.split() if word not in stop_words])
-
-        sa = SentimentIntensityAnalyzer()
-        dd = sa.polarity_scores(text=processed_doc1)
-        compound = round((1 + dd['compound'])/2, 2)
-
-        return render_template('form.html', final=compound, text1=text1)
+        return render_template('form.html', final=output, text1=text)
     else:
         return render_template('form.html')
 
 if __name__ == "__main__":
-    app.run(debug=True, host="127.0.0.1", port=5002, threaded=True)
+    app.run()
+    #app.run(debug=True, host="127.0.0.1", port=5002, threaded=True)
+# Is education really making good people nowadays? what are the simple and stylish names of mobile shops? how will you describe fascism?

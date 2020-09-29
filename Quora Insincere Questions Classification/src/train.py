@@ -8,18 +8,19 @@ import pandas as pd
 import torch.nn as nn
 import numpy as np
 from settings import get_module_logger
-from model import TweetModel
+from model import CustomRoberta
 from sklearn import model_selection
 from transformers import AdamW
 from dataset import QuoraDataset
 from transformers import get_linear_schedule_with_warmup
-
+import warnings
+warnings.filterwarnings("ignore")
 logger = get_module_logger(__name__)
 
 
-def run(fold):
+def run():
     dfx = pd.read_csv(config.TRAINING_FILE).dropna().reset_index(drop=True)
-
+    dfx = dfx[:50]
     df_train, df_valid = model_selection.train_test_split(
         dfx, 
         test_size=0.1, 
@@ -53,10 +54,9 @@ def run(fold):
     )
 
     device = torch.device("cuda")
-    model_config = transformers.BertConfig.from_pretrained(config.ROBERTA_PATH)
-    model_config.output_hidden_states = True
-    model = TweetModel(conf=model_config)
+    model = CustomRoberta()
     model.to(device)
+   
 
     param_optimizer = list(model.named_parameters())
     no_decay = ["bias", "LayerNorm.bias", "LayerNorm.weight"]
@@ -97,20 +97,24 @@ def run(fold):
     for epoch in range(3):
         print("epochs = ", epoch)
         train_f1, train_loss = engine.train_fn(train_data_loader, model, optimizer, device, scheduler)
-        val_f1s, val_losses = engine.eval_fn(valid_data_loader, model, device)
-        val_f1s.append(f1)
-        rain_f1s.append(train_f1.item())
-        val_losses.append(loss)
-        train_losses.append(train_loss.item())
+        print(train_f1)
+        print("----------------------")
+        print(train_f1.item())
+    #     val_f1s, val_losses = engine.eval_fn(valid_data_loader, model, device)
+    #     val_f1s.append(f1)
+    #     train_f1s.append(train_f1.item())
+    #     val_losses.append(loss)
+    #     train_losses.append(train_loss.item())
 
-    torch.save(model.state_dict(), config.MODEL_PATH)
-    metric_lists = [val_losses, train_losses, val_f1s, train_f1s]
-    metric_names = ['val_loss_', 'train_loss_', 'val_f1_', 'train_f1_']
+    # torch.save(model.state_dict(), config.MODEL_PATH)
+    # metric_lists = [val_losses, train_losses, val_f1s, train_f1s]
+    # metric_names = ['val_loss_', 'train_loss_', 'val_f1_', 'train_f1_']
     
-    for i, metric_list in enumerate(metric_lists):
-        for j, metric_value in enumerate(metric_list):
-            torch.save('../models/' + metric_value, metric_names[i] + str(j) + '.pt')
+    # for i, metric_list in enumerate(metric_lists):
+    #     for j, metric_value in enumerate(metric_list):
+    #         torch.save('../models/' + metric_value, metric_names[i] + str(j) + '.pt')
 
 if __name__ == "__main__":
-    for fold in range(2,5):
-        run(fold)
+    run()
+    # for fold in range(2,5):
+    #     run(fold)

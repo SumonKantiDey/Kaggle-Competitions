@@ -3,7 +3,8 @@ import utils
 import pandas as pd 
 import torch
 import numpy as np
-
+import warnings
+warnings.filterwarnings("ignore")
 
 class QuoraDataset:
     def __init__(self, question_text, targets):
@@ -27,6 +28,7 @@ class QuoraDataset:
             max_length=self.max_length,
             truncation_strategy="longest_first",
             pad_to_max_length=True,
+            truncation=True
         )
         
         ids = inputs["input_ids"]

@@ -1,5 +1,5 @@
 # Quora Insincere Questions Classification [link](https://www.kaggle.com/c/quora-insincere-questions-classification/overview).
-[![Demo Doccou alpha](http://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+[![Demo Doccou alpha](https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/demo/final.mp4)](https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/demo/final.mp4)
 The objective is to predict whether a question asked on Quora is sincere or not. Some characteristics that can signify that a question is insincere:
 
 * has a non-neutral tone.

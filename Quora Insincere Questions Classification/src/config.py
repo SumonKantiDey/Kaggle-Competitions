@@ -1,8 +1,8 @@
 import transformers
 from transformers import TFAutoModel, AutoTokenizer
 
-MAX_LEN = 192
-TRAIN_BATCH_SIZE = 256
+MAX_LEN = 64
+TRAIN_BATCH_SIZE = 192
 VALID_BATCH_SIZE = 128
 EPOCHS = 2
 MODEL_SAVE_PATH = '../models/insincerity_model.pt'

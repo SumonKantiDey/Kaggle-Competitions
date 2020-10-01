@@ -5,3 +5,4 @@ scikit-learn
 flask-ngrok==0.0.25
 transformers==3.3.0
 multiprocessing-logging==0.3.1
+colored==1.4.2

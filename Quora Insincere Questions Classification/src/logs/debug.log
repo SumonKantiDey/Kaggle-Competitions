@@ -1,64 +1,662 @@
-2020-09-29 10:55:11,743 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
-2020-09-29 10:55:12,560 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
-2020-09-29 10:55:12,572 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 10:55:12,896 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
-2020-09-29 10:55:12,898 - filelock - DEBUG - Attempting to acquire lock 139697243582360 on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
-2020-09-29 10:55:12,899 - filelock - INFO - Lock 139697243582360 acquired on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
-2020-09-29 10:55:12,904 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 10:55:12,964 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "GET /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 1115590446
-2020-09-29 10:55:33,948 - filelock - DEBUG - Attempting to release lock 139697243582360 on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
-2020-09-29 10:55:33,948 - filelock - INFO - Lock 139697243582360 released on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
-2020-09-29 10:55:54,532 - __main__ - INFO - STARTING TRAINING
-2020-09-29 10:56:49,444 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
-2020-09-29 10:56:50,182 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
-2020-09-29 10:56:50,189 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 10:56:50,520 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
-2020-09-29 10:57:01,786 - __main__ - INFO - STARTING TRAINING
-2020-09-29 10:58:15,831 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
-2020-09-29 10:58:16,613 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
-2020-09-29 10:58:16,619 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 10:58:16,956 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
-2020-09-29 10:58:28,315 - __main__ - INFO - STARTING TRAINING
-2020-09-29 10:58:32,111 - engine - INFO - bi=0, F1=0.062,time=3.7851035594940186
-2020-09-29 11:01:30,543 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
-2020-09-29 11:01:31,295 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
-2020-09-29 11:01:31,301 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 11:01:31,365 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
-2020-09-29 11:01:42,824 - __main__ - INFO - STARTING TRAINING
-2020-09-29 11:01:46,655 - engine - INFO - bi=0, F1=0.071,time=3.821122169494629
-2020-09-29 11:05:50,310 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
-2020-09-29 11:05:51,059 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
-2020-09-29 11:05:51,065 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 11:05:51,404 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
-2020-09-29 11:06:02,828 - __main__ - INFO - STARTING TRAINING
-2020-09-29 11:06:06,717 - engine - INFO - bi=0, F1=0.087,time=3.8800411224365234
-2020-09-29 11:08:59,284 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
-2020-09-29 11:09:00,098 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
-2020-09-29 11:09:00,104 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 11:09:00,433 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
-2020-09-29 11:09:11,642 - __main__ - INFO - STARTING TRAINING
-2020-09-29 11:09:15,472 - engine - INFO - bi=0, F1=0.0,time=3.8207521438598633
-2020-09-29 11:09:57,010 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
-2020-09-29 11:09:57,763 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
-2020-09-29 11:09:57,770 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 11:09:58,094 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
-2020-09-29 11:10:09,537 - __main__ - INFO - STARTING TRAINING
-2020-09-29 11:10:13,355 - engine - INFO - bi=0, F1=0.083,time=3.8075599670410156
-2020-09-29 11:10:49,441 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
-2020-09-29 11:10:50,197 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
-2020-09-29 11:10:50,203 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 11:10:50,270 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
-2020-09-29 11:11:01,623 - __main__ - INFO - STARTING TRAINING
-2020-09-29 11:11:05,484 - engine - INFO - bi=0, F1=0.0,time=3.8509104251861572
-2020-09-29 11:18:57,623 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
-2020-09-29 11:18:58,371 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
-2020-09-29 11:18:58,377 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 11:18:58,750 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
-2020-09-29 11:19:10,303 - __main__ - INFO - STARTING TRAINING
-2020-09-29 11:19:14,109 - engine - INFO - bi=0, F1=0.0,time=3.794408082962036
-2020-09-29 11:20:24,477 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
-2020-09-29 11:20:25,243 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
-2020-09-29 11:20:25,250 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
-2020-09-29 11:20:25,316 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
-2020-09-29 11:20:36,768 - __main__ - INFO - STARTING TRAINING
-2020-09-29 11:20:40,590 - engine - INFO - bi=0, F1=0.0,time=3.811774492263794
+2020-10-01 16:34:26,338 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 16:34:27,924 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:34:28,823 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:34:28,825 - filelock - DEBUG - Attempting to acquire lock 139840456102184 on /root/.cache/torch/transformers/762ddd751172e9d3229e5da17a459eee6c0dfdc237c718944d0b1a85f06c7e1e.2b0f807393c56e8861a31cd67d2fc0b45d71d9735dd47dd66afb650f90b6d2a8.lock
+2020-10-01 16:34:28,826 - filelock - INFO - Lock 139840456102184 acquired on /root/.cache/torch/transformers/762ddd751172e9d3229e5da17a459eee6c0dfdc237c718944d0b1a85f06c7e1e.2b0f807393c56e8861a31cd67d2fc0b45d71d9735dd47dd66afb650f90b6d2a8.lock
+2020-10-01 16:34:28,831 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:34:29,716 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "GET /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 512
+2020-10-01 16:34:29,721 - filelock - DEBUG - Attempting to release lock 139840456102184 on /root/.cache/torch/transformers/762ddd751172e9d3229e5da17a459eee6c0dfdc237c718944d0b1a85f06c7e1e.2b0f807393c56e8861a31cd67d2fc0b45d71d9735dd47dd66afb650f90b6d2a8.lock
+2020-10-01 16:34:29,722 - filelock - INFO - Lock 139840456102184 released on /root/.cache/torch/transformers/762ddd751172e9d3229e5da17a459eee6c0dfdc237c718944d0b1a85f06c7e1e.2b0f807393c56e8861a31cd67d2fc0b45d71d9735dd47dd66afb650f90b6d2a8.lock
+2020-10-01 16:34:29,726 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:34:30,610 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 16:34:30,612 - filelock - DEBUG - Attempting to acquire lock 139839569776592 on /root/.cache/torch/transformers/0c370616ddfc06067c0634160f749c2cf9d8da2c50e03a2617ce5841c8df3b1d.309f0c29486cffc28e1e40a2ab0ac8f500c203fe080b95f820aa9cb58e5b84ed.lock
+2020-10-01 16:34:30,613 - filelock - INFO - Lock 139839569776592 acquired on /root/.cache/torch/transformers/0c370616ddfc06067c0634160f749c2cf9d8da2c50e03a2617ce5841c8df3b1d.309f0c29486cffc28e1e40a2ab0ac8f500c203fe080b95f820aa9cb58e5b84ed.lock
+2020-10-01 16:34:30,617 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:34:31,540 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "GET /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 5069051
+2020-10-01 16:34:33,257 - filelock - DEBUG - Attempting to release lock 139839569776592 on /root/.cache/torch/transformers/0c370616ddfc06067c0634160f749c2cf9d8da2c50e03a2617ce5841c8df3b1d.309f0c29486cffc28e1e40a2ab0ac8f500c203fe080b95f820aa9cb58e5b84ed.lock
+2020-10-01 16:34:33,258 - filelock - INFO - Lock 139839569776592 released on /root/.cache/torch/transformers/0c370616ddfc06067c0634160f749c2cf9d8da2c50e03a2617ce5841c8df3b1d.309f0c29486cffc28e1e40a2ab0ac8f500c203fe080b95f820aa9cb58e5b84ed.lock
+2020-10-01 16:34:42,525 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 16:34:42,921 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 16:34:42,927 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:34:43,814 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:34:43,820 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 16:34:45,171 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 16:34:45,173 - filelock - DEBUG - Attempting to acquire lock 139839294274864 on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
+2020-10-01 16:34:45,174 - filelock - INFO - Lock 139839294274864 acquired on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
+2020-10-01 16:34:45,176 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 16:34:45,497 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "GET /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 1115590446
+2020-10-01 16:35:10,613 - filelock - DEBUG - Attempting to release lock 139839294274864 on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
+2020-10-01 16:35:10,613 - filelock - INFO - Lock 139839294274864 released on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
+2020-10-01 16:35:30,602 - __main__ - INFO - STARTING TRAINING
+2020-10-01 16:35:30,602 - __main__ - INFO - epochs = 0
+2020-10-01 16:37:20,901 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 16:37:22,264 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:37:23,160 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:37:23,165 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:37:24,048 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 16:37:27,884 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 16:37:28,275 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 16:37:28,282 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:37:29,160 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:37:29,165 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 16:37:29,192 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 16:37:39,593 - __main__ - INFO - STARTING TRAINING
+2020-10-01 16:37:39,594 - __main__ - INFO - epochs = 0
+2020-10-01 16:38:24,650 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 16:38:26,094 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:38:26,970 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:38:26,975 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:38:27,863 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 16:38:31,781 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 16:38:32,175 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 16:38:32,183 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:38:33,060 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:38:33,066 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 16:38:33,101 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 16:38:44,900 - __main__ - INFO - STARTING TRAINING
+2020-10-01 16:38:44,900 - __main__ - INFO - epochs = 0
+2020-10-01 16:38:45,733 - engine - INFO - bi=0, Train F1=0.583,Train loss=0.7250208854675293, time=0.8172814846038818
+2020-10-01 16:40:21,042 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 16:40:22,485 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:40:23,363 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:40:23,369 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:40:24,250 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 16:40:28,521 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 16:40:28,923 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 16:40:28,929 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:40:29,805 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:40:29,810 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 16:40:30,134 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 16:40:40,770 - __main__ - INFO - STARTING TRAINING
+2020-10-01 16:40:40,771 - __main__ - INFO - epochs = 0
+2020-10-01 16:41:02,090 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 16:41:03,659 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:41:04,557 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:41:04,562 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:41:05,447 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 16:41:09,770 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 16:41:10,157 - __main__ - INFO - train len - 27000 valid len - 3000
+2020-10-01 16:41:10,163 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:41:11,044 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:41:11,049 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 16:41:11,372 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 16:41:27,821 - __main__ - INFO - STARTING TRAINING
+2020-10-01 16:41:27,822 - __main__ - INFO - epochs = 0
+2020-10-01 16:56:10,826 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 16:56:12,363 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:56:12,745 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:56:12,746 - filelock - DEBUG - Attempting to acquire lock 140410454688600 on /root/.cache/torch/transformers/762ddd751172e9d3229e5da17a459eee6c0dfdc237c718944d0b1a85f06c7e1e.2b0f807393c56e8861a31cd67d2fc0b45d71d9735dd47dd66afb650f90b6d2a8.lock
+2020-10-01 16:56:12,747 - filelock - INFO - Lock 140410454688600 acquired on /root/.cache/torch/transformers/762ddd751172e9d3229e5da17a459eee6c0dfdc237c718944d0b1a85f06c7e1e.2b0f807393c56e8861a31cd67d2fc0b45d71d9735dd47dd66afb650f90b6d2a8.lock
+2020-10-01 16:56:12,750 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:56:13,037 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "GET /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 512
+2020-10-01 16:56:13,042 - filelock - DEBUG - Attempting to release lock 140410454688600 on /root/.cache/torch/transformers/762ddd751172e9d3229e5da17a459eee6c0dfdc237c718944d0b1a85f06c7e1e.2b0f807393c56e8861a31cd67d2fc0b45d71d9735dd47dd66afb650f90b6d2a8.lock
+2020-10-01 16:56:13,042 - filelock - INFO - Lock 140410454688600 released on /root/.cache/torch/transformers/762ddd751172e9d3229e5da17a459eee6c0dfdc237c718944d0b1a85f06c7e1e.2b0f807393c56e8861a31cd67d2fc0b45d71d9735dd47dd66afb650f90b6d2a8.lock
+2020-10-01 16:56:13,045 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:56:13,333 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 16:56:13,334 - filelock - DEBUG - Attempting to acquire lock 140409137702504 on /root/.cache/torch/transformers/0c370616ddfc06067c0634160f749c2cf9d8da2c50e03a2617ce5841c8df3b1d.309f0c29486cffc28e1e40a2ab0ac8f500c203fe080b95f820aa9cb58e5b84ed.lock
+2020-10-01 16:56:13,336 - filelock - INFO - Lock 140409137702504 acquired on /root/.cache/torch/transformers/0c370616ddfc06067c0634160f749c2cf9d8da2c50e03a2617ce5841c8df3b1d.309f0c29486cffc28e1e40a2ab0ac8f500c203fe080b95f820aa9cb58e5b84ed.lock
+2020-10-01 16:56:13,338 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:56:13,610 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "GET /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 5069051
+2020-10-01 16:56:14,133 - filelock - DEBUG - Attempting to release lock 140409137702504 on /root/.cache/torch/transformers/0c370616ddfc06067c0634160f749c2cf9d8da2c50e03a2617ce5841c8df3b1d.309f0c29486cffc28e1e40a2ab0ac8f500c203fe080b95f820aa9cb58e5b84ed.lock
+2020-10-01 16:56:14,133 - filelock - INFO - Lock 140409137702504 released on /root/.cache/torch/transformers/0c370616ddfc06067c0634160f749c2cf9d8da2c50e03a2617ce5841c8df3b1d.309f0c29486cffc28e1e40a2ab0ac8f500c203fe080b95f820aa9cb58e5b84ed.lock
+2020-10-01 16:56:21,374 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 16:56:21,753 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 16:56:21,759 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 16:56:22,034 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 16:56:22,038 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 16:56:22,226 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 16:56:22,227 - filelock - DEBUG - Attempting to acquire lock 140408949752776 on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
+2020-10-01 16:56:22,228 - filelock - INFO - Lock 140408949752776 acquired on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
+2020-10-01 16:56:22,231 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 16:56:22,262 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "GET /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 1115590446
+2020-10-01 16:56:55,724 - filelock - DEBUG - Attempting to release lock 140408949752776 on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
+2020-10-01 16:56:55,724 - filelock - INFO - Lock 140408949752776 released on /root/.cache/torch/transformers/5cbeb972feded79b927818648bf14dc71b7810cda88c8c971a9d45c0dab901ec.aeeaca90954dc20ffa2909de722cfbfd455c5bb16d480c5bdf6d7fe79c68c267.lock
+2020-10-01 16:57:15,394 - __main__ - INFO - STARTING TRAINING
+2020-10-01 16:57:15,394 - __main__ - INFO - epochs = 0
+2020-10-01 16:57:16,197 - engine - INFO - bi=0, Train F1=0.37,Train loss=0.6903838515281677, time=0.8007421493530273
+2020-10-01 16:57:23,395 - engine - INFO - bi=10, Train F1=0.384,Train loss=0.6967591643333435, time=7.788989782333374
+2020-10-01 16:57:30,662 - engine - INFO - bi=20, Train F1=0.519,Train loss=0.678686261177063, time=15.05653691291809
+2020-10-01 16:57:37,896 - engine - INFO - bi=30, Train F1=0.374,Train loss=0.6929047107696533, time=22.29015064239502
+2020-10-01 16:57:45,122 - engine - INFO - bi=40, Train F1=0.358,Train loss=0.6993768215179443, time=29.528156995773315
+2020-10-01 16:57:52,344 - engine - INFO - bi=50, Train F1=0.543,Train loss=0.6632049083709717, time=36.73833131790161
+2020-10-01 16:57:59,597 - engine - INFO - bi=60, Train F1=0.417,Train loss=0.6919183135032654, time=43.99579334259033
+2020-10-01 16:58:06,829 - engine - INFO - bi=70, Train F1=0.472,Train loss=0.6877419948577881, time=51.224472522735596
+2020-10-01 16:58:14,052 - engine - INFO - bi=80, Train F1=0.417,Train loss=0.6906239986419678, time=58.44728755950928
+2020-10-01 16:58:21,285 - engine - INFO - bi=90, Train F1=0.365,Train loss=0.7051321268081665, time=65.6781325340271
+2020-10-01 16:58:28,521 - engine - INFO - bi=100, Train F1=0.412,Train loss=0.6892182230949402, time=72.9152147769928
+2020-10-01 16:58:35,757 - engine - INFO - bi=110, Train F1=0.412,Train loss=0.6834882497787476, time=80.1531023979187
+2020-10-01 16:58:42,995 - engine - INFO - bi=120, Train F1=0.4,Train loss=0.68519127368927, time=87.38999319076538
+2020-10-01 16:58:50,239 - engine - INFO - bi=130, Train F1=0.409,Train loss=0.6743807792663574, time=94.63215684890747
+2020-10-01 16:58:57,486 - engine - INFO - bi=140, Train F1=0.286,Train loss=0.6947327256202698, time=101.87983584403992
+2020-10-01 16:59:04,727 - engine - INFO - bi=150, Train F1=0.309,Train loss=0.7040306329727173, time=109.12154197692871
+2020-10-01 16:59:11,967 - engine - INFO - bi=160, Train F1=0.408,Train loss=0.6857779026031494, time=116.36517143249512
+2020-10-01 16:59:19,211 - engine - INFO - bi=170, Train F1=0.343,Train loss=0.6980667114257812, time=123.6178708076477
+2020-10-01 16:59:26,451 - engine - INFO - bi=180, Train F1=0.429,Train loss=0.6913437247276306, time=130.84695982933044
+2020-10-01 16:59:33,683 - engine - INFO - bi=190, Train F1=0.354,Train loss=0.6897175908088684, time=138.07555198669434
+2020-10-01 16:59:40,931 - engine - INFO - bi=200, Train F1=0.388,Train loss=0.6849983930587769, time=145.32585835456848
+2020-10-01 16:59:48,167 - engine - INFO - bi=210, Train F1=0.426,Train loss=0.6873775720596313, time=152.56156206130981
+2020-10-01 16:59:55,418 - engine - INFO - bi=220, Train F1=0.413,Train loss=0.6935446262359619, time=159.81241655349731
+2020-10-01 17:00:02,654 - engine - INFO - bi=230, Train F1=0.411,Train loss=0.7012081146240234, time=167.04800868034363
+2020-10-01 17:00:09,898 - engine - INFO - bi=240, Train F1=0.289,Train loss=0.6988614201545715, time=174.29273581504822
+2020-10-01 17:00:17,123 - engine - INFO - bi=250, Train F1=0.419,Train loss=0.6960727572441101, time=181.51705956459045
+2020-10-01 17:00:24,356 - engine - INFO - bi=260, Train F1=0.381,Train loss=0.6809000968933105, time=188.75242590904236
+2020-10-01 17:00:31,592 - engine - INFO - bi=270, Train F1=0.376,Train loss=0.6967344880104065, time=195.98636054992676
+2020-10-01 17:00:38,809 - engine - INFO - bi=280, Train F1=0.49,Train loss=0.6764047741889954, time=203.1946291923523
+2020-10-01 17:00:46,964 - engine - INFO - bi=31, Eval F1=0.6652559638023376, Eval loss=0.6935352087020874 ,time=7.31662130355835
+2020-10-01 17:00:46,973 - __main__ - INFO - epochs = 1
+2020-10-01 17:00:47,529 - engine - INFO - bi=0, Train F1=0.369,Train loss=0.6939702033996582, time=0.3533334732055664
+2020-10-01 17:00:54,756 - engine - INFO - bi=10, Train F1=0.376,Train loss=0.699173629283905, time=7.572839021682739
+2020-10-01 17:01:02,007 - engine - INFO - bi=20, Train F1=0.46,Train loss=0.6772336363792419, time=14.83370590209961
+2020-10-01 17:01:09,234 - engine - INFO - bi=30, Train F1=0.215,Train loss=0.7033119201660156, time=22.048741579055786
+2020-10-01 17:01:16,470 - engine - INFO - bi=40, Train F1=0.295,Train loss=0.7019274234771729, time=29.28548288345337
+2020-10-01 17:01:23,713 - engine - INFO - bi=50, Train F1=0.46,Train loss=0.6705857515335083, time=36.52835011482239
+2020-10-01 17:01:30,936 - engine - INFO - bi=60, Train F1=0.273,Train loss=0.7021360397338867, time=43.750385999679565
+2020-10-01 17:01:38,179 - engine - INFO - bi=70, Train F1=0.473,Train loss=0.6988309025764465, time=50.99502778053284
+2020-10-01 17:01:45,409 - engine - INFO - bi=80, Train F1=0.292,Train loss=0.6967458128929138, time=58.2239408493042
+2020-10-01 17:01:52,634 - engine - INFO - bi=90, Train F1=0.496,Train loss=0.6972088813781738, time=65.44947838783264
+2020-10-01 17:01:59,857 - engine - INFO - bi=100, Train F1=0.388,Train loss=0.692406415939331, time=72.67447638511658
+2020-10-01 17:02:07,093 - engine - INFO - bi=110, Train F1=0.396,Train loss=0.6909651756286621, time=79.90998911857605
+2020-10-01 17:02:14,349 - engine - INFO - bi=120, Train F1=0.452,Train loss=0.6769218444824219, time=87.1661536693573
+2020-10-01 17:02:21,596 - engine - INFO - bi=130, Train F1=0.383,Train loss=0.6847167611122131, time=94.42152190208435
+2020-10-01 17:02:28,839 - engine - INFO - bi=140, Train F1=0.4,Train loss=0.6833174824714661, time=101.65389823913574
+2020-10-01 17:02:36,072 - engine - INFO - bi=150, Train F1=0.347,Train loss=0.7077201008796692, time=108.8902370929718
+2020-10-01 17:02:43,307 - engine - INFO - bi=160, Train F1=0.467,Train loss=0.6978034973144531, time=116.12145829200745
+2020-10-01 17:02:50,538 - engine - INFO - bi=170, Train F1=0.289,Train loss=0.6998186111450195, time=123.35298800468445
+2020-10-01 17:02:57,805 - engine - INFO - bi=180, Train F1=0.462,Train loss=0.6915811896324158, time=130.61996173858643
+2020-10-01 17:03:05,054 - engine - INFO - bi=190, Train F1=0.311,Train loss=0.6969496011734009, time=137.86931610107422
+2020-10-01 17:03:12,287 - engine - INFO - bi=200, Train F1=0.239,Train loss=0.6996581554412842, time=145.10148811340332
+2020-10-01 17:03:19,513 - engine - INFO - bi=210, Train F1=0.433,Train loss=0.6910593509674072, time=152.32755279541016
+2020-10-01 17:03:26,754 - engine - INFO - bi=220, Train F1=0.33,Train loss=0.6945356130599976, time=159.5711419582367
+2020-10-01 17:03:33,994 - engine - INFO - bi=230, Train F1=0.463,Train loss=0.6898205876350403, time=166.8080449104309
+2020-10-01 17:03:41,241 - engine - INFO - bi=240, Train F1=0.262,Train loss=0.6974916458129883, time=174.05869007110596
+2020-10-01 17:03:48,466 - engine - INFO - bi=250, Train F1=0.475,Train loss=0.6845892667770386, time=181.28976798057556
+2020-10-01 17:03:55,707 - engine - INFO - bi=260, Train F1=0.362,Train loss=0.6836605072021484, time=188.52357077598572
+2020-10-01 17:04:02,938 - engine - INFO - bi=270, Train F1=0.385,Train loss=0.7028112411499023, time=195.75191521644592
+2020-10-01 17:04:10,158 - engine - INFO - bi=280, Train F1=0.437,Train loss=0.6939504146575928, time=202.97421216964722
+2020-10-01 17:04:18,332 - engine - INFO - bi=31, Eval F1=0.6652559638023376, Eval loss=0.6935352087020874 ,time=7.332660913467407
+2020-10-01 17:06:13,722 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 17:06:15,369 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:06:15,822 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 17:06:15,826 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:06:16,097 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 17:06:22,498 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 17:06:22,881 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 17:06:22,888 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:06:23,193 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 17:06:23,197 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 17:06:23,389 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 17:07:03,791 - __main__ - INFO - STARTING TRAINING
+2020-10-01 17:07:03,792 - __main__ - INFO - epochs = 0
+2020-10-01 17:07:04,688 - engine - INFO - bi=0, Train F1=0.136,Train loss=0.7394044399261475, time=0.7299277782440186
+2020-10-01 17:07:15,317 - engine - INFO - bi=10, Train F1=0.105,Train loss=0.6983264684677124, time=11.203239917755127
+2020-10-01 17:07:25,911 - engine - INFO - bi=20, Train F1=0.12,Train loss=0.7650318145751953, time=21.795124769210815
+2020-10-01 17:07:36,490 - engine - INFO - bi=30, Train F1=0.124,Train loss=0.7508554458618164, time=32.37387466430664
+2020-10-01 17:07:47,081 - engine - INFO - bi=40, Train F1=0.076,Train loss=0.7433924674987793, time=42.96324968338013
+2020-10-01 17:07:57,653 - engine - INFO - bi=50, Train F1=0.06,Train loss=0.7289111018180847, time=53.535428047180176
+2020-10-01 17:08:08,231 - engine - INFO - bi=60, Train F1=0.019,Train loss=0.7692763209342957, time=64.11335706710815
+2020-10-01 17:08:18,812 - engine - INFO - bi=70, Train F1=0.074,Train loss=0.7532510161399841, time=74.69585990905762
+2020-10-01 17:08:29,381 - engine - INFO - bi=80, Train F1=0.061,Train loss=0.7249242663383484, time=85.26381325721741
+2020-10-01 17:08:39,953 - engine - INFO - bi=90, Train F1=0.077,Train loss=0.7296223044395447, time=95.8362603187561
+2020-10-01 17:08:50,514 - engine - INFO - bi=100, Train F1=0.162,Train loss=0.7271167635917664, time=106.39688539505005
+2020-10-01 17:09:01,067 - engine - INFO - bi=110, Train F1=0.062,Train loss=0.7277800440788269, time=116.95019745826721
+2020-10-01 17:09:11,639 - engine - INFO - bi=120, Train F1=0.022,Train loss=0.7251555323600769, time=127.52370381355286
+2020-10-01 17:09:22,213 - engine - INFO - bi=130, Train F1=0.062,Train loss=0.7310250997543335, time=138.09584188461304
+2020-10-01 17:09:32,760 - engine - INFO - bi=140, Train F1=0.107,Train loss=0.7603618502616882, time=148.64336371421814
+2020-10-01 17:09:43,330 - engine - INFO - bi=150, Train F1=0.074,Train loss=0.7511431574821472, time=159.2138934135437
+2020-10-01 17:09:53,895 - engine - INFO - bi=160, Train F1=0.125,Train loss=0.7436074018478394, time=169.77807688713074
+2020-10-01 17:10:04,463 - engine - INFO - bi=170, Train F1=0.081,Train loss=0.7359055876731873, time=180.34652304649353
+2020-10-01 17:10:15,023 - engine - INFO - bi=180, Train F1=0.103,Train loss=0.7592036128044128, time=190.89749097824097
+2020-10-01 17:10:30,093 - engine - INFO - bi=31, Eval F1=0.0, Eval loss=0.7244086265563965 ,time=7.340179920196533
+2020-10-01 17:10:30,101 - __main__ - INFO - epochs = 1
+2020-10-01 17:10:30,839 - engine - INFO - bi=0, Train F1=0.062,Train loss=0.7182998657226562, time=0.43470025062561035
+2020-10-01 17:10:41,407 - engine - INFO - bi=10, Train F1=0.129,Train loss=0.6972551345825195, time=10.979949712753296
+2020-10-01 17:10:51,996 - engine - INFO - bi=20, Train F1=0.07,Train loss=0.7761635780334473, time=21.568685054779053
+2020-10-01 17:11:02,549 - engine - INFO - bi=30, Train F1=0.073,Train loss=0.7611276507377625, time=32.126362800598145
+2020-10-01 17:11:13,133 - engine - INFO - bi=40, Train F1=0.094,Train loss=0.7379118800163269, time=42.718215227127075
+2020-10-01 17:11:23,700 - engine - INFO - bi=50, Train F1=0.078,Train loss=0.7285760641098022, time=53.272698163986206
+2020-10-01 17:11:34,236 - engine - INFO - bi=60, Train F1=0.053,Train loss=0.776860237121582, time=63.81062364578247
+2020-10-01 17:11:44,794 - engine - INFO - bi=70, Train F1=0.093,Train loss=0.7351216077804565, time=74.36712789535522
+2020-10-01 17:11:55,329 - engine - INFO - bi=80, Train F1=0.081,Train loss=0.7151483297348022, time=84.90230059623718
+2020-10-01 17:12:05,910 - engine - INFO - bi=90, Train F1=0.165,Train loss=0.7157027125358582, time=95.48344707489014
+2020-10-01 17:12:16,484 - engine - INFO - bi=100, Train F1=0.174,Train loss=0.7413370013237, time=106.05664706230164
+2020-10-01 17:12:27,061 - engine - INFO - bi=110, Train F1=0.062,Train loss=0.72270268201828, time=116.63431406021118
+2020-10-01 17:12:37,611 - engine - INFO - bi=120, Train F1=0.064,Train loss=0.7047408819198608, time=127.18375158309937
+2020-10-01 17:12:48,167 - engine - INFO - bi=130, Train F1=0.081,Train loss=0.7342032790184021, time=137.74086332321167
+2020-10-01 17:12:58,721 - engine - INFO - bi=140, Train F1=0.075,Train loss=0.7432656288146973, time=148.29508924484253
+2020-10-01 17:13:09,297 - engine - INFO - bi=150, Train F1=0.127,Train loss=0.7415894269943237, time=158.87015557289124
+2020-10-01 17:13:19,863 - engine - INFO - bi=160, Train F1=0.091,Train loss=0.7473611831665039, time=169.43691515922546
+2020-10-01 17:13:30,426 - engine - INFO - bi=170, Train F1=0.133,Train loss=0.7222846746444702, time=179.99847221374512
+2020-10-01 17:13:40,994 - engine - INFO - bi=180, Train F1=0.088,Train loss=0.7839450836181641, time=190.5591824054718
+2020-10-01 17:13:56,089 - engine - INFO - bi=31, Eval F1=0.0, Eval loss=0.7244086265563965 ,time=7.3631908893585205
+2020-10-01 17:25:23,931 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 17:25:25,567 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:25:25,845 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 17:25:25,850 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:25:26,161 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 17:25:32,511 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 17:25:32,902 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 17:25:32,908 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:25:33,203 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 17:25:33,208 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 17:25:33,396 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 17:25:55,289 - __main__ - INFO - STARTING TRAINING
+2020-10-01 17:25:55,289 - __main__ - INFO - epochs = 0
+2020-10-01 17:25:56,306 - engine - INFO - bi=0, Train F1=0.619,Train loss=0.7162269353866577, time=0.7686140537261963
+2020-10-01 17:30:42,108 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 17:30:43,436 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:30:43,712 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 17:30:43,717 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:30:44,042 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 17:30:47,895 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 17:30:48,290 - __main__ - INFO - train len - 27000 valid len - 3000
+2020-10-01 17:30:48,295 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:30:48,567 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 17:30:48,571 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 17:30:48,807 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 17:30:58,855 - __main__ - INFO - STARTING TRAINING
+2020-10-01 17:30:58,855 - __main__ - INFO - epochs = 0
+2020-10-01 17:30:59,712 - engine - INFO - bi=0, Train F1=0.615,Train loss=0.6719150543212891, time=0.6754508018493652
+2020-10-01 17:31:10,315 - engine - INFO - bi=10, Train F1=0.606,Train loss=0.6692120432853699, time=11.13375210762024
+2020-10-01 17:31:20,902 - engine - INFO - bi=20, Train F1=0.472,Train loss=0.7037267684936523, time=21.728049278259277
+2020-10-01 17:31:31,467 - engine - INFO - bi=30, Train F1=0.541,Train loss=0.6858534812927246, time=32.28404498100281
+2020-10-01 17:31:42,032 - engine - INFO - bi=40, Train F1=0.505,Train loss=0.7007198333740234, time=42.84926986694336
+2020-10-01 17:31:52,593 - engine - INFO - bi=50, Train F1=0.5,Train loss=0.7157019972801208, time=53.410430669784546
+2020-10-01 17:32:03,158 - engine - INFO - bi=60, Train F1=0.547,Train loss=0.7172077894210815, time=63.975138425827026
+2020-10-01 17:32:13,708 - engine - INFO - bi=70, Train F1=0.55,Train loss=0.6926354169845581, time=74.5266523361206
+2020-10-01 17:32:24,297 - engine - INFO - bi=80, Train F1=0.562,Train loss=0.7013626098632812, time=85.11432933807373
+2020-10-01 17:32:34,867 - engine - INFO - bi=90, Train F1=0.529,Train loss=0.7088949680328369, time=95.68486332893372
+2020-10-01 17:32:45,427 - engine - INFO - bi=100, Train F1=0.495,Train loss=0.7002608776092529, time=106.24411463737488
+2020-10-01 17:32:55,983 - engine - INFO - bi=110, Train F1=0.558,Train loss=0.6902885437011719, time=116.8000738620758
+2020-10-01 17:33:06,549 - engine - INFO - bi=120, Train F1=0.526,Train loss=0.7235361933708191, time=127.36685299873352
+2020-10-01 17:33:17,118 - engine - INFO - bi=130, Train F1=0.53,Train loss=0.7110130190849304, time=137.9357213973999
+2020-10-01 17:33:27,539 - engine - INFO - bi=140, Train F1=0.622,Train loss=0.6728100180625916, time=148.47406220436096
+2020-10-01 17:33:33,676 - engine - INFO - bi=23, Eval F1=0.665522038936615, Eval loss=0.6961222887039185 ,time=5.515631675720215
+2020-10-01 17:33:33,694 - __main__ - INFO - epochs = 1
+2020-10-01 17:33:34,368 - engine - INFO - bi=0, Train F1=0.566,Train loss=0.6934130191802979, time=0.40950822830200195
+2020-10-01 17:33:44,960 - engine - INFO - bi=10, Train F1=0.589,Train loss=0.6909517645835876, time=10.939929246902466
+2020-10-01 17:33:55,569 - engine - INFO - bi=20, Train F1=0.442,Train loss=0.701267421245575, time=21.549013137817383
+2020-10-01 17:34:06,177 - engine - INFO - bi=30, Train F1=0.507,Train loss=0.7081999778747559, time=32.15638089179993
+2020-10-01 17:34:16,753 - engine - INFO - bi=40, Train F1=0.48,Train loss=0.7034578323364258, time=42.73326539993286
+2020-10-01 17:34:27,325 - engine - INFO - bi=50, Train F1=0.529,Train loss=0.6938999891281128, time=53.30545520782471
+2020-10-01 17:34:37,902 - engine - INFO - bi=60, Train F1=0.526,Train loss=0.7112305164337158, time=63.88252377510071
+2020-10-01 17:34:48,479 - engine - INFO - bi=70, Train F1=0.503,Train loss=0.7138189077377319, time=74.45933890342712
+2020-10-01 17:34:59,050 - engine - INFO - bi=80, Train F1=0.51,Train loss=0.7066015005111694, time=85.02982759475708
+2020-10-01 17:35:09,621 - engine - INFO - bi=90, Train F1=0.484,Train loss=0.7096860408782959, time=95.60058617591858
+2020-10-01 17:35:20,188 - engine - INFO - bi=100, Train F1=0.523,Train loss=0.7045184969902039, time=106.1684160232544
+2020-10-01 17:35:30,781 - engine - INFO - bi=110, Train F1=0.536,Train loss=0.7118913531303406, time=116.76039838790894
+2020-10-01 17:35:41,349 - engine - INFO - bi=120, Train F1=0.604,Train loss=0.6862955093383789, time=127.33017468452454
+2020-10-01 17:35:51,913 - engine - INFO - bi=130, Train F1=0.578,Train loss=0.7027442455291748, time=137.89279747009277
+2020-10-01 17:36:02,371 - engine - INFO - bi=140, Train F1=0.565,Train loss=0.7102084159851074, time=148.4693648815155
+2020-10-01 17:36:08,527 - engine - INFO - bi=23, Eval F1=0.665522038936615, Eval loss=0.6961222887039185 ,time=5.536160469055176
+2020-10-01 17:48:00,937 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 17:48:02,350 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:48:02,656 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 17:48:02,661 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:48:02,942 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 17:48:07,086 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 17:48:07,483 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 17:48:07,489 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 17:48:07,768 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 17:48:07,773 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 17:48:07,988 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 17:48:18,243 - __main__ - INFO - STARTING TRAINING
+2020-10-01 17:48:18,243 - __main__ - INFO - epochs = 0
+2020-10-01 17:48:19,312 - engine - INFO - bi=0, Train F1=0.134,Train loss=0.7412812113761902, time=0.7756974697113037
+2020-10-01 17:48:29,874 - engine - INFO - bi=10, Train F1=0.314,Train loss=0.6896998286247253, time=11.304402828216553
+2020-10-01 17:48:40,475 - engine - INFO - bi=20, Train F1=0.195,Train loss=0.7474057078361511, time=21.904941082000732
+2020-10-01 17:48:51,076 - engine - INFO - bi=30, Train F1=0.227,Train loss=0.741372287273407, time=32.5422477722168
+2020-10-01 17:49:01,631 - engine - INFO - bi=40, Train F1=0.252,Train loss=0.7276575565338135, time=43.062541484832764
+2020-10-01 17:49:12,189 - engine - INFO - bi=50, Train F1=0.19,Train loss=0.7112064361572266, time=53.632906675338745
+2020-10-01 17:49:22,757 - engine - INFO - bi=60, Train F1=0.198,Train loss=0.7349532842636108, time=64.18797135353088
+2020-10-01 17:49:33,344 - engine - INFO - bi=70, Train F1=0.22,Train loss=0.720453143119812, time=74.77492260932922
+2020-10-01 17:49:43,916 - engine - INFO - bi=80, Train F1=0.254,Train loss=0.7118200063705444, time=85.3465723991394
+2020-10-01 17:49:54,485 - engine - INFO - bi=90, Train F1=0.226,Train loss=0.7272805571556091, time=95.93684196472168
+2020-10-01 17:50:05,078 - engine - INFO - bi=100, Train F1=0.288,Train loss=0.7246982455253601, time=106.50904083251953
+2020-10-01 17:50:15,634 - engine - INFO - bi=110, Train F1=0.222,Train loss=0.7097209692001343, time=117.0650999546051
+2020-10-01 17:50:26,196 - engine - INFO - bi=120, Train F1=0.267,Train loss=0.7047675848007202, time=127.64044761657715
+2020-10-01 17:50:36,771 - engine - INFO - bi=130, Train F1=0.119,Train loss=0.7355138659477234, time=138.20124530792236
+2020-10-01 17:50:47,346 - engine - INFO - bi=140, Train F1=0.215,Train loss=0.7385618686676025, time=148.7813539505005
+2020-10-01 17:50:57,928 - engine - INFO - bi=150, Train F1=0.24,Train loss=0.7387120723724365, time=159.35844540596008
+2020-10-01 17:51:08,480 - engine - INFO - bi=160, Train F1=0.238,Train loss=0.7401003837585449, time=169.9108624458313
+2020-10-01 17:51:19,028 - engine - INFO - bi=170, Train F1=0.187,Train loss=0.7211498022079468, time=180.4632031917572
+2020-10-01 17:51:29,599 - engine - INFO - bi=180, Train F1=0.309,Train loss=0.74283766746521, time=191.02198028564453
+2020-10-01 17:51:44,745 - engine - INFO - bi=31, Eval F1=0.0, Eval loss=0.7374466061592102 ,time=7.40282940864563
+2020-10-01 17:51:44,747 - __main__ - INFO - epochs = 1
+2020-10-01 17:51:45,462 - engine - INFO - bi=0, Train F1=0.19,Train loss=0.7078193426132202, time=0.44901180267333984
+2020-10-01 17:51:56,049 - engine - INFO - bi=10, Train F1=0.18,Train loss=0.7037612795829773, time=10.974822044372559
+2020-10-01 17:52:06,659 - engine - INFO - bi=20, Train F1=0.169,Train loss=0.75490403175354, time=21.585002183914185
+2020-10-01 17:52:17,229 - engine - INFO - bi=30, Train F1=0.22,Train loss=0.7276034355163574, time=32.153889656066895
+2020-10-01 17:52:27,787 - engine - INFO - bi=40, Train F1=0.293,Train loss=0.7068710327148438, time=42.71235704421997
+2020-10-01 17:52:38,346 - engine - INFO - bi=50, Train F1=0.26,Train loss=0.7131268382072449, time=53.27134728431702
+2020-10-01 17:52:48,908 - engine - INFO - bi=60, Train F1=0.268,Train loss=0.7296756505966187, time=63.83362913131714
+2020-10-01 17:52:59,459 - engine - INFO - bi=70, Train F1=0.137,Train loss=0.7379676699638367, time=74.38486003875732
+2020-10-01 17:53:10,028 - engine - INFO - bi=80, Train F1=0.288,Train loss=0.7144865989685059, time=84.95311832427979
+2020-10-01 17:53:20,580 - engine - INFO - bi=90, Train F1=0.194,Train loss=0.7241414785385132, time=95.5189757347107
+2020-10-01 17:53:31,143 - engine - INFO - bi=100, Train F1=0.242,Train loss=0.7334787249565125, time=106.0685670375824
+2020-10-01 17:53:41,706 - engine - INFO - bi=110, Train F1=0.248,Train loss=0.7314531207084656, time=116.63159823417664
+2020-10-01 17:53:52,308 - engine - INFO - bi=120, Train F1=0.288,Train loss=0.6897697448730469, time=127.23554491996765
+2020-10-01 17:54:02,878 - engine - INFO - bi=130, Train F1=0.142,Train loss=0.709486186504364, time=137.80368304252625
+2020-10-01 17:54:13,457 - engine - INFO - bi=140, Train F1=0.222,Train loss=0.7211772799491882, time=148.38288640975952
+2020-10-01 17:54:24,024 - engine - INFO - bi=150, Train F1=0.195,Train loss=0.7418772578239441, time=158.95005130767822
+2020-10-01 17:54:34,596 - engine - INFO - bi=160, Train F1=0.173,Train loss=0.7505011558532715, time=169.52628540992737
+2020-10-01 17:54:45,176 - engine - INFO - bi=170, Train F1=0.183,Train loss=0.7226418256759644, time=180.10171246528625
+2020-10-01 17:54:55,730 - engine - INFO - bi=180, Train F1=0.258,Train loss=0.7335691452026367, time=190.64689230918884
+2020-10-01 17:55:10,944 - engine - INFO - bi=31, Eval F1=0.0, Eval loss=0.7374466061592102 ,time=7.433314085006714
+2020-10-01 18:07:23,361 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 18:07:25,037 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 18:07:25,383 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 18:07:25,390 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 18:07:25,689 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 18:07:29,505 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 18:07:29,899 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 18:07:29,906 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 18:07:30,188 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 18:07:30,193 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 18:07:30,483 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 18:07:40,750 - __main__ - INFO - STARTING TRAINING
+2020-10-01 18:07:40,750 - __main__ - INFO - epochs = 0
+2020-10-01 18:07:41,624 - engine - INFO - bi=0, Train F1=0.083,Train loss=0.0038551483303308487, time=0.6869094371795654
+2020-10-01 18:07:52,234 - engine - INFO - bi=10, Train F1=0.024,Train loss=0.003702218411490321, time=11.166084051132202
+2020-10-01 18:08:02,820 - engine - INFO - bi=20, Train F1=0.0,Train loss=0.004235250875353813, time=21.7403781414032
+2020-10-01 18:08:13,397 - engine - INFO - bi=30, Train F1=0.02,Train loss=0.004093369003385305, time=32.31748008728027
+2020-10-01 18:08:23,999 - engine - INFO - bi=40, Train F1=0.02,Train loss=0.00412336690351367, time=42.94748139381409
+2020-10-01 18:08:34,581 - engine - INFO - bi=50, Train F1=0.084,Train loss=0.003932459745556116, time=53.501983642578125
+2020-10-01 18:08:45,152 - engine - INFO - bi=60, Train F1=0.019,Train loss=0.004168754443526268, time=64.08329153060913
+2020-10-01 18:08:55,726 - engine - INFO - bi=70, Train F1=0.02,Train loss=0.004016757011413574, time=74.64730215072632
+2020-10-01 18:09:06,296 - engine - INFO - bi=80, Train F1=0.0,Train loss=0.0038452844601124525, time=85.21640992164612
+2020-10-01 18:09:16,856 - engine - INFO - bi=90, Train F1=0.041,Train loss=0.004073449410498142, time=95.77708053588867
+2020-10-01 18:09:27,432 - engine - INFO - bi=100, Train F1=0.02,Train loss=0.004007086157798767, time=106.35311555862427
+2020-10-01 18:09:37,980 - engine - INFO - bi=110, Train F1=0.0,Train loss=0.0037389318458735943, time=116.901611328125
+2020-10-01 18:09:48,557 - engine - INFO - bi=120, Train F1=0.043,Train loss=0.003806859254837036, time=127.48095893859863
+2020-10-01 18:09:59,147 - engine - INFO - bi=130, Train F1=0.043,Train loss=0.003790019080042839, time=138.06706643104553
+2020-10-01 18:10:09,709 - engine - INFO - bi=140, Train F1=0.02,Train loss=0.0042229387909173965, time=148.62987399101257
+2020-10-01 18:10:20,243 - engine - INFO - bi=150, Train F1=0.058,Train loss=0.003944857511669397, time=159.16440725326538
+2020-10-01 18:10:30,821 - engine - INFO - bi=160, Train F1=0.02,Train loss=0.004102488048374653, time=169.7418749332428
+2020-10-01 18:10:41,384 - engine - INFO - bi=170, Train F1=0.022,Train loss=0.0038404089864343405, time=180.30459332466125
+2020-10-01 18:10:51,958 - engine - INFO - bi=180, Train F1=0.019,Train loss=0.004087114706635475, time=190.86968612670898
+2020-10-01 18:11:07,112 - engine - INFO - bi=31, Eval F1=0.0, Eval loss=0.005596921779215336 ,time=7.394828796386719
+2020-10-01 18:11:07,113 - __main__ - INFO - epochs = 1
+2020-10-01 18:11:07,753 - engine - INFO - bi=0, Train F1=0.0,Train loss=0.0037674575578421354, time=0.34441304206848145
+2020-10-01 18:11:18,350 - engine - INFO - bi=10, Train F1=0.046,Train loss=0.0036669045221060514, time=10.910078525543213
+2020-10-01 18:11:28,927 - engine - INFO - bi=20, Train F1=0.019,Train loss=0.004130215384066105, time=21.4874210357666
+2020-10-01 18:11:39,481 - engine - INFO - bi=30, Train F1=0.02,Train loss=0.004150960594415665, time=32.04058504104614
+2020-10-01 18:11:50,046 - engine - INFO - bi=40, Train F1=0.039,Train loss=0.004033815115690231, time=42.6049964427948
+2020-10-01 18:12:00,611 - engine - INFO - bi=50, Train F1=0.021,Train loss=0.0037967253010720015, time=53.16936683654785
+2020-10-01 18:12:11,169 - engine - INFO - bi=60, Train F1=0.0,Train loss=0.00407593697309494, time=63.728283166885376
+2020-10-01 18:12:21,742 - engine - INFO - bi=70, Train F1=0.02,Train loss=0.003953989595174789, time=74.3009581565857
+2020-10-01 18:12:32,300 - engine - INFO - bi=80, Train F1=0.022,Train loss=0.003749017370864749, time=84.85944128036499
+2020-10-01 18:12:42,869 - engine - INFO - bi=90, Train F1=0.0,Train loss=0.0040100510232150555, time=95.431809425354
+2020-10-01 18:12:53,443 - engine - INFO - bi=100, Train F1=0.0,Train loss=0.004077298101037741, time=106.00158143043518
+2020-10-01 18:13:04,008 - engine - INFO - bi=110, Train F1=0.0,Train loss=0.0037277003284543753, time=116.56827139854431
+2020-10-01 18:13:14,567 - engine - INFO - bi=120, Train F1=0.0,Train loss=0.00372044974938035, time=127.12612128257751
+2020-10-01 18:13:25,120 - engine - INFO - bi=130, Train F1=0.0,Train loss=0.0036728649865835905, time=137.67899990081787
+2020-10-01 18:13:35,682 - engine - INFO - bi=140, Train F1=0.0,Train loss=0.004217320587486029, time=148.24340319633484
+2020-10-01 18:13:46,239 - engine - INFO - bi=150, Train F1=0.02,Train loss=0.00402387510985136, time=158.79833436012268
+2020-10-01 18:13:56,798 - engine - INFO - bi=160, Train F1=0.039,Train loss=0.003992212936282158, time=169.35733199119568
+2020-10-01 18:14:07,348 - engine - INFO - bi=170, Train F1=0.063,Train loss=0.0037624721881002188, time=179.9074912071228
+2020-10-01 18:14:17,904 - engine - INFO - bi=180, Train F1=0.038,Train loss=0.004113973118364811, time=190.45520663261414
+2020-10-01 18:14:33,033 - engine - INFO - bi=31, Eval F1=0.0, Eval loss=0.005596921779215336 ,time=7.399397373199463
+2020-10-01 18:21:01,815 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 18:21:03,229 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 18:21:03,512 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 18:21:03,516 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 18:21:03,793 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 18:21:07,413 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 18:21:07,805 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 18:21:07,810 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 18:21:08,095 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 18:21:08,099 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 18:21:08,287 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 18:21:18,506 - __main__ - INFO - STARTING TRAINING
+2020-10-01 18:21:18,506 - __main__ - INFO - epochs = 0
+2020-10-01 18:21:19,476 - engine - INFO - bi=0, Train F1=0.629,Train loss=0.7837032079696655, time=0.8024289608001709
+2020-10-01 18:21:30,111 - engine - INFO - bi=10, Train F1=0.611,Train loss=0.7886914610862732, time=11.27590274810791
+2020-10-01 18:21:40,820 - engine - INFO - bi=20, Train F1=0.707,Train loss=0.7332323789596558, time=21.988708972930908
+2020-10-01 18:21:51,505 - engine - INFO - bi=30, Train F1=0.676,Train loss=0.7349418997764587, time=32.68751883506775
+2020-10-01 18:22:02,176 - engine - INFO - bi=40, Train F1=0.667,Train loss=0.7549261450767517, time=43.340686321258545
+2020-10-01 18:22:12,835 - engine - INFO - bi=50, Train F1=0.645,Train loss=0.766089141368866, time=54.001384973526
+2020-10-01 18:22:23,507 - engine - INFO - bi=60, Train F1=0.712,Train loss=0.7096613645553589, time=64.6729781627655
+2020-10-01 18:22:34,172 - engine - INFO - bi=70, Train F1=0.662,Train loss=0.7413444519042969, time=75.33806824684143
+2020-10-01 18:22:44,839 - engine - INFO - bi=80, Train F1=0.629,Train loss=0.7818816900253296, time=86.00465893745422
+2020-10-01 18:22:55,517 - engine - INFO - bi=90, Train F1=0.653,Train loss=0.740681529045105, time=96.6819839477539
+2020-10-01 18:23:06,196 - engine - INFO - bi=100, Train F1=0.68,Train loss=0.7569753527641296, time=107.36239910125732
+2020-10-01 18:23:16,887 - engine - INFO - bi=110, Train F1=0.636,Train loss=0.784163236618042, time=118.05398797988892
+2020-10-01 18:23:27,549 - engine - INFO - bi=120, Train F1=0.629,Train loss=0.7828266024589539, time=128.71505546569824
+2020-10-01 18:23:38,219 - engine - INFO - bi=130, Train F1=0.638,Train loss=0.7806970477104187, time=139.38470768928528
+2020-10-01 18:23:48,885 - engine - INFO - bi=140, Train F1=0.69,Train loss=0.7403356432914734, time=150.06252074241638
+2020-10-01 18:23:59,549 - engine - INFO - bi=150, Train F1=0.667,Train loss=0.7598681449890137, time=160.71427869796753
+2020-10-01 18:24:10,218 - engine - INFO - bi=160, Train F1=0.676,Train loss=0.7479793429374695, time=171.38326144218445
+2020-10-01 18:24:20,890 - engine - INFO - bi=170, Train F1=0.641,Train loss=0.7805377840995789, time=182.0570948123932
+2020-10-01 18:24:31,575 - engine - INFO - bi=180, Train F1=0.703,Train loss=0.7171610593795776, time=192.73138451576233
+2020-10-01 18:24:46,776 - engine - INFO - bi=31, Eval F1=21.314044952392578, Eval loss=23.124494552612305 ,time=7.36305832862854
+2020-10-01 18:24:46,777 - __main__ - INFO - epochs = 1
+2020-10-01 18:24:47,542 - engine - INFO - bi=0, Train F1=0.638,Train loss=0.7736098170280457, time=0.5027575492858887
+2020-10-01 18:24:58,254 - engine - INFO - bi=10, Train F1=0.601,Train loss=0.7939518690109253, time=11.147313356399536
+2020-10-01 18:25:08,931 - engine - INFO - bi=20, Train F1=0.703,Train loss=0.746184766292572, time=21.824814319610596
+2020-10-01 18:25:19,605 - engine - INFO - bi=30, Train F1=0.685,Train loss=0.7561487555503845, time=32.49866795539856
+2020-10-01 18:25:30,299 - engine - INFO - bi=40, Train F1=0.674,Train loss=0.7600623965263367, time=43.19234824180603
+2020-10-01 18:25:40,992 - engine - INFO - bi=50, Train F1=0.633,Train loss=0.754952609539032, time=53.885746002197266
+2020-10-01 18:25:51,661 - engine - INFO - bi=60, Train F1=0.707,Train loss=0.7135321497917175, time=64.55525994300842
+2020-10-01 18:26:02,326 - engine - INFO - bi=70, Train F1=0.671,Train loss=0.7486564517021179, time=75.21903252601624
+2020-10-01 18:26:12,992 - engine - INFO - bi=80, Train F1=0.631,Train loss=0.7594525218009949, time=85.89295864105225
+2020-10-01 18:26:23,651 - engine - INFO - bi=90, Train F1=0.66,Train loss=0.7589713931083679, time=96.5456600189209
+2020-10-01 18:26:34,326 - engine - INFO - bi=100, Train F1=0.676,Train loss=0.7465518712997437, time=107.2192931175232
+2020-10-01 18:26:44,998 - engine - INFO - bi=110, Train F1=0.643,Train loss=0.7581708431243896, time=117.89162850379944
+2020-10-01 18:26:55,654 - engine - INFO - bi=120, Train F1=0.621,Train loss=0.7842162847518921, time=128.5470781326294
+2020-10-01 18:27:06,342 - engine - INFO - bi=130, Train F1=0.633,Train loss=0.7928580045700073, time=139.2360646724701
+2020-10-01 18:27:17,015 - engine - INFO - bi=140, Train F1=0.685,Train loss=0.7342474460601807, time=149.90840578079224
+2020-10-01 18:27:27,693 - engine - INFO - bi=150, Train F1=0.674,Train loss=0.7626359462738037, time=160.58986043930054
+2020-10-01 18:27:38,356 - engine - INFO - bi=160, Train F1=0.676,Train loss=0.7432669401168823, time=171.25007009506226
+2020-10-01 18:27:49,024 - engine - INFO - bi=170, Train F1=0.638,Train loss=0.7800378799438477, time=181.9187617301941
+2020-10-01 18:27:59,704 - engine - INFO - bi=180, Train F1=0.698,Train loss=0.7361752986907959, time=192.5888614654541
+2020-10-01 18:28:14,865 - engine - INFO - bi=31, Eval F1=21.314044952392578, Eval loss=23.124494552612305 ,time=7.334529399871826
+2020-10-01 19:02:01,827 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 19:02:03,306 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:02:03,648 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:02:03,653 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:02:03,985 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 19:03:03,994 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 19:03:05,419 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:03:05,724 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:03:05,729 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:03:06,026 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 19:03:38,415 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 19:03:39,814 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:03:40,103 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:03:40,108 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:03:40,395 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 19:05:37,282 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 19:05:38,687 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:05:38,973 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:05:38,977 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:05:39,298 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 19:06:33,629 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 19:06:35,087 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:06:35,476 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:06:35,481 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:06:35,764 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 19:08:22,264 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 19:08:23,660 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:08:23,947 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:08:23,952 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:08:24,267 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 19:08:28,126 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 19:08:28,513 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 19:08:28,520 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:08:28,815 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:08:28,819 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 19:08:28,871 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 19:08:39,145 - __main__ - INFO - STARTING TRAINING
+2020-10-01 19:08:39,145 - __main__ - INFO - epochs = 0
+2020-10-01 19:10:15,995 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 19:10:17,489 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:10:17,852 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:10:17,858 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:10:18,142 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 19:10:22,111 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 19:10:22,520 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 19:10:22,527 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:10:22,816 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:10:22,821 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 19:10:23,018 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 19:10:33,192 - __main__ - INFO - STARTING TRAINING
+2020-10-01 19:10:33,192 - __main__ - INFO - epochs = 0
+2020-10-01 19:11:06,376 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 19:11:07,875 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:11:08,158 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:11:08,163 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:11:08,467 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 19:11:12,656 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 19:11:13,066 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 19:11:13,072 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:11:13,356 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:11:13,362 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 19:11:13,427 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 19:11:23,622 - __main__ - INFO - STARTING TRAINING
+2020-10-01 19:11:23,622 - __main__ - INFO - epochs = 0
+2020-10-01 19:11:24,541 - engine - INFO - bi=0, Train F1=0.239,Train loss=0.7018526792526245, time=0.9162461757659912
+2020-10-01 19:11:35,139 - engine - INFO - bi=10, Train F1=0.202,Train loss=0.6884163618087769, time=11.514751672744751
+2020-10-01 19:11:45,735 - engine - INFO - bi=20, Train F1=0.141,Train loss=0.7247685790061951, time=22.11013412475586
+2020-10-01 19:11:56,334 - engine - INFO - bi=30, Train F1=0.163,Train loss=0.7166821360588074, time=32.7094669342041
+2020-10-01 19:12:06,916 - engine - INFO - bi=40, Train F1=0.182,Train loss=0.7318614721298218, time=43.29150867462158
+2020-10-01 19:12:17,538 - engine - INFO - bi=50, Train F1=0.139,Train loss=0.6967662572860718, time=53.913362979888916
+2020-10-01 19:12:28,125 - engine - INFO - bi=60, Train F1=0.277,Train loss=0.7046470642089844, time=64.50039148330688
+2020-10-01 19:12:38,721 - engine - INFO - bi=70, Train F1=0.19,Train loss=0.7159942984580994, time=75.09633755683899
+2020-10-01 19:12:49,315 - engine - INFO - bi=80, Train F1=0.162,Train loss=0.707188606262207, time=85.690749168396
+2020-10-01 19:12:59,887 - engine - INFO - bi=90, Train F1=0.234,Train loss=0.7056803703308105, time=96.26227569580078
+2020-10-01 19:13:10,450 - engine - INFO - bi=100, Train F1=0.254,Train loss=0.709204375743866, time=106.82533979415894
+2020-10-01 19:13:21,045 - engine - INFO - bi=110, Train F1=0.239,Train loss=0.697750449180603, time=117.42011523246765
+2020-10-01 19:13:31,634 - engine - INFO - bi=120, Train F1=0.286,Train loss=0.7003668546676636, time=128.00976586341858
+2020-10-01 19:13:42,194 - engine - INFO - bi=130, Train F1=0.13,Train loss=0.7092868685722351, time=138.5699167251587
+2020-10-01 19:13:52,775 - engine - INFO - bi=140, Train F1=0.241,Train loss=0.71873539686203, time=149.1501703262329
+2020-10-01 19:14:03,341 - engine - INFO - bi=150, Train F1=0.15,Train loss=0.7141679525375366, time=159.7161009311676
+2020-10-01 19:14:13,914 - engine - INFO - bi=160, Train F1=0.19,Train loss=0.7164813876152039, time=170.2898075580597
+2020-10-01 19:14:24,509 - engine - INFO - bi=170, Train F1=0.143,Train loss=0.7074398994445801, time=180.88439917564392
+2020-10-01 19:14:35,104 - engine - INFO - bi=180, Train F1=0.205,Train loss=0.7214207649230957, time=191.47998762130737
+2020-10-01 19:14:42,877 - engine - INFO - avg_train_f1 = 0.21682519168454278 avg_train_loss = 135.7078587146516
+2020-10-01 19:14:50,238 - engine - INFO - bi=31, Avg_val F1=0.0, Avg_val loss=89.92010498046875 ,time=7.360005140304565
+2020-10-01 19:14:50,239 - __main__ - INFO - epochs = 1
+2020-10-01 19:14:50,962 - engine - INFO - bi=0, Train F1=0.2,Train loss=0.6994161605834961, time=0.7174367904663086
+2020-10-01 19:15:01,544 - engine - INFO - bi=10, Train F1=0.155,Train loss=0.6852278113365173, time=11.300312280654907
+2020-10-01 19:15:12,148 - engine - INFO - bi=20, Train F1=0.258,Train loss=0.7172880172729492, time=21.903690099716187
+2020-10-01 19:15:22,732 - engine - INFO - bi=30, Train F1=0.122,Train loss=0.7243999242782593, time=32.48786020278931
+2020-10-01 19:15:33,314 - engine - INFO - bi=40, Train F1=0.197,Train loss=0.717147707939148, time=43.07064604759216
+2020-10-01 19:15:43,887 - engine - INFO - bi=50, Train F1=0.172,Train loss=0.7083076238632202, time=53.64280700683594
+2020-10-01 19:15:54,468 - engine - INFO - bi=60, Train F1=0.157,Train loss=0.719582736492157, time=64.22418999671936
+2020-10-01 19:16:05,048 - engine - INFO - bi=70, Train F1=0.208,Train loss=0.7200751304626465, time=74.80458331108093
+2020-10-01 19:16:15,640 - engine - INFO - bi=80, Train F1=0.243,Train loss=0.6876763105392456, time=85.39611601829529
+2020-10-01 19:16:26,227 - engine - INFO - bi=90, Train F1=0.272,Train loss=0.6870688796043396, time=95.98314142227173
+2020-10-01 19:16:36,801 - engine - INFO - bi=100, Train F1=0.211,Train loss=0.7109168767929077, time=106.55748105049133
+2020-10-01 19:16:47,429 - engine - INFO - bi=110, Train F1=0.248,Train loss=0.6811641454696655, time=117.18491005897522
+2020-10-01 19:16:58,012 - engine - INFO - bi=120, Train F1=0.235,Train loss=0.6952729225158691, time=127.76771092414856
+2020-10-01 19:17:08,598 - engine - INFO - bi=130, Train F1=0.127,Train loss=0.7167713046073914, time=138.35407853126526
+2020-10-01 19:17:19,186 - engine - INFO - bi=140, Train F1=0.198,Train loss=0.7163211703300476, time=148.94200086593628
+2020-10-01 19:17:29,763 - engine - INFO - bi=150, Train F1=0.197,Train loss=0.7173969149589539, time=159.51955461502075
+2020-10-01 19:17:40,354 - engine - INFO - bi=160, Train F1=0.209,Train loss=0.7138934135437012, time=170.11022901535034
+2020-10-01 19:17:50,958 - engine - INFO - bi=170, Train F1=0.271,Train loss=0.6843263506889343, time=180.71372270584106
+2020-10-01 19:18:01,545 - engine - INFO - bi=180, Train F1=0.288,Train loss=0.7017383575439453, time=191.30103421211243
+2020-10-01 19:18:09,316 - engine - INFO - avg_train_f1 = 0.20959376163305127 avg_train_loss = 135.96358173451517
+2020-10-01 19:18:16,680 - engine - INFO - bi=31, Avg_val F1=0.0, Avg_val loss=89.92010498046875 ,time=7.361643075942993
+2020-10-01 19:34:06,073 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 19:34:07,450 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:34:07,731 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:34:07,735 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:34:08,003 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 19:34:11,867 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 19:34:12,270 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 19:34:12,276 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:34:12,548 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:34:12,553 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 19:34:12,769 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 19:34:22,861 - __main__ - INFO - STARTING TRAINING
+2020-10-01 19:34:22,862 - __main__ - INFO - epochs = 0
+2020-10-01 19:34:23,928 - engine - INFO - bi=0, Train F1=0.364,Train loss=0.7075576782226562, time=1.0632483959197998
+2020-10-01 19:34:34,475 - engine - INFO - bi=10, Train F1=0.338,Train loss=0.6932001113891602, time=11.61072039604187
+2020-10-01 19:34:45,089 - engine - INFO - bi=20, Train F1=0.303,Train loss=0.7245499491691589, time=22.224231719970703
+2020-10-01 19:34:55,667 - engine - INFO - bi=30, Train F1=0.282,Train loss=0.7157895565032959, time=32.802321434020996
+2020-10-01 19:35:06,253 - engine - INFO - bi=40, Train F1=0.38,Train loss=0.7107261419296265, time=43.38826060295105
+2020-10-01 19:35:16,845 - engine - INFO - bi=50, Train F1=0.343,Train loss=0.7010359764099121, time=53.98061466217041
+2020-10-01 19:35:27,435 - engine - INFO - bi=60, Train F1=0.34,Train loss=0.7252061367034912, time=64.57087564468384
+2020-10-01 19:35:38,035 - engine - INFO - bi=70, Train F1=0.292,Train loss=0.7187166213989258, time=75.17082190513611
+2020-10-01 19:35:48,617 - engine - INFO - bi=80, Train F1=0.342,Train loss=0.7144352793693542, time=85.75256824493408
+2020-10-01 19:35:59,209 - engine - INFO - bi=90, Train F1=0.4,Train loss=0.688312292098999, time=96.34436631202698
+2020-10-01 19:36:09,785 - engine - INFO - bi=100, Train F1=0.372,Train loss=0.6997431516647339, time=106.92017841339111
+2020-10-01 19:36:20,392 - engine - INFO - bi=110, Train F1=0.252,Train loss=0.7222660779953003, time=117.52769136428833
+2020-10-01 19:36:30,978 - engine - INFO - bi=120, Train F1=0.327,Train loss=0.7099647521972656, time=128.11331748962402
+2020-10-01 19:36:41,611 - engine - INFO - bi=130, Train F1=0.392,Train loss=0.6926360130310059, time=138.74630975723267
+2020-10-01 19:36:52,205 - engine - INFO - bi=140, Train F1=0.297,Train loss=0.7063958048820496, time=149.34074139595032
+2020-10-01 19:37:02,806 - engine - INFO - bi=150, Train F1=0.299,Train loss=0.7139848470687866, time=159.9410810470581
+2020-10-01 19:37:13,408 - engine - INFO - bi=160, Train F1=0.319,Train loss=0.7010082602500916, time=170.54305481910706
+2020-10-01 19:37:24,001 - engine - INFO - bi=170, Train F1=0.231,Train loss=0.7087815999984741, time=181.1366708278656
+2020-10-01 19:37:34,610 - engine - INFO - bi=180, Train F1=0.282,Train loss=0.7150261402130127, time=191.74545288085938
+2020-10-01 19:37:42,382 - engine - INFO - avg_train_f1 = 0.3314971518801881 avg_train_loss = 136.1719368467939
+2020-10-01 19:37:49,782 - engine - INFO - bi=31, Avg_val F1=0.0, Avg_val loss=88.5949935913086 ,time=7.398725748062134
+2020-10-01 19:37:49,784 - __main__ - INFO - epochs = 1
+2020-10-01 19:37:50,511 - engine - INFO - bi=0, Train F1=0.248,Train loss=0.7282426357269287, time=0.7235836982727051
+2020-10-01 19:38:01,085 - engine - INFO - bi=10, Train F1=0.36,Train loss=0.6901518702507019, time=11.298035144805908
+2020-10-01 19:38:11,694 - engine - INFO - bi=20, Train F1=0.34,Train loss=0.730705976486206, time=21.907344341278076
+2020-10-01 19:38:22,288 - engine - INFO - bi=30, Train F1=0.374,Train loss=0.7059697508811951, time=32.50154256820679
+2020-10-01 19:38:32,886 - engine - INFO - bi=40, Train F1=0.289,Train loss=0.7241172790527344, time=43.09959411621094
+2020-10-01 19:38:43,473 - engine - INFO - bi=50, Train F1=0.209,Train loss=0.7095159292221069, time=53.68674898147583
+2020-10-01 19:38:54,082 - engine - INFO - bi=60, Train F1=0.339,Train loss=0.7313587069511414, time=64.29516744613647
+2020-10-01 19:39:04,693 - engine - INFO - bi=70, Train F1=0.39,Train loss=0.6983625292778015, time=74.90650701522827
+2020-10-01 19:39:15,281 - engine - INFO - bi=80, Train F1=0.338,Train loss=0.6968411207199097, time=85.49442267417908
+2020-10-01 19:39:25,889 - engine - INFO - bi=90, Train F1=0.356,Train loss=0.7001098394393921, time=96.10194110870361
+2020-10-01 19:39:36,481 - engine - INFO - bi=100, Train F1=0.408,Train loss=0.6979646682739258, time=106.69405579566956
+2020-10-01 19:39:47,059 - engine - INFO - bi=110, Train F1=0.411,Train loss=0.6947565078735352, time=117.27264785766602
+2020-10-01 19:39:57,643 - engine - INFO - bi=120, Train F1=0.266,Train loss=0.7120814323425293, time=127.85654091835022
+2020-10-01 19:40:08,217 - engine - INFO - bi=130, Train F1=0.331,Train loss=0.7014572024345398, time=138.43061017990112
+2020-10-01 19:43:51,819 - tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2020-10-01 19:43:53,215 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:43:53,503 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:43:53,507 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:43:53,791 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-sentencepiece.bpe.model HTTP/1.1" 200 0
+2020-10-01 19:43:57,815 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2020-10-01 19:43:58,235 - __main__ - INFO - train len - 36000 valid len - 4000
+2020-10-01 19:43:58,241 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2020-10-01 19:43:58,518 - urllib3.connectionpool - DEBUG - https://s3.amazonaws.com:443 "HEAD /models.huggingface.co/bert/xlm-roberta-base-config.json HTTP/1.1" 200 0
+2020-10-01 19:43:58,523 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn.huggingface.co:443
+2020-10-01 19:43:58,715 - urllib3.connectionpool - DEBUG - https://cdn.huggingface.co:443 "HEAD /xlm-roberta-base-pytorch_model.bin HTTP/1.1" 200 0
+2020-10-01 19:44:09,003 - __main__ - INFO - STARTING TRAINING
+2020-10-01 19:44:09,003 - __main__ - INFO - epochs = 0
+2020-10-01 19:44:09,901 - engine - INFO - bi=0, Train F1=0.53,Train loss=0.6991896629333496, time=0.7138268947601318
+2020-10-01 19:44:20,530 - engine - INFO - bi=10, Train F1=0.543,Train loss=0.6911095976829529, time=11.199699640274048
+2020-10-01 19:44:31,145 - engine - INFO - bi=20, Train F1=0.68,Train loss=0.6752877235412598, time=21.815726041793823
+2020-10-01 19:44:41,718 - engine - INFO - bi=30, Train F1=0.608,Train loss=0.6970019340515137, time=32.38827180862427
+2020-10-01 19:44:52,298 - engine - INFO - bi=40, Train F1=0.579,Train loss=0.6947686076164246, time=42.968154430389404
+2020-10-01 19:45:02,880 - engine - INFO - bi=50, Train F1=0.592,Train loss=0.684863269329071, time=53.550036907196045
+2020-10-01 19:45:13,460 - engine - INFO - bi=60, Train F1=0.586,Train loss=0.6932944655418396, time=64.14357376098633
+2020-10-01 19:45:24,041 - engine - INFO - bi=70, Train F1=0.617,Train loss=0.6998512148857117, time=74.72648477554321
+2020-10-01 19:45:34,628 - engine - INFO - bi=80, Train F1=0.549,Train loss=0.7077481150627136, time=85.29908156394958
+2020-10-01 19:45:45,201 - engine - INFO - bi=90, Train F1=0.574,Train loss=0.7028691172599792, time=95.87189054489136
+2020-10-01 19:45:55,795 - engine - INFO - bi=100, Train F1=0.577,Train loss=0.691892147064209, time=106.4656081199646
+2020-10-01 19:46:06,373 - engine - INFO - bi=110, Train F1=0.595,Train loss=0.688335120677948, time=117.0432493686676
+2020-10-01 19:46:16,972 - engine - INFO - bi=120, Train F1=0.578,Train loss=0.6837486028671265, time=127.64239192008972
+2020-10-01 19:46:27,551 - engine - INFO - bi=130, Train F1=0.605,Train loss=0.6876459121704102, time=138.2219340801239
+2020-10-01 19:46:38,135 - engine - INFO - bi=140, Train F1=0.562,Train loss=0.7004450559616089, time=148.80548071861267
+2020-10-01 19:46:48,727 - engine - INFO - bi=150, Train F1=0.622,Train loss=0.6894993782043457, time=159.42605924606323
+2020-10-01 19:46:59,319 - engine - INFO - bi=160, Train F1=0.599,Train loss=0.6952545046806335, time=169.98936915397644
+2020-10-01 19:47:09,928 - engine - INFO - bi=170, Train F1=0.583,Train loss=0.6950267553329468, time=180.5984447002411
+2020-10-01 19:47:20,495 - engine - INFO - bi=180, Train F1=0.605,Train loss=0.6851058006286621, time=191.15795397758484
+2020-10-01 19:47:35,638 - engine - INFO - bi=31, Avg_val F1=0.6441720724105835, Avg_val loss=0.6920767426490784 ,time=7.368812799453735
+2020-10-01 19:47:35,638 - __main__ - INFO - epochs = 1
+2020-10-01 19:47:36,322 - engine - INFO - bi=0, Train F1=0.579,Train loss=0.6901995539665222, time=0.4170963764190674
+2020-10-01 19:47:46,931 - engine - INFO - bi=10, Train F1=0.509,Train loss=0.7159422636032104, time=10.966296195983887
+2020-10-01 19:47:57,546 - engine - INFO - bi=20, Train F1=0.598,Train loss=0.6845393180847168, time=21.58135223388672
+2020-10-01 19:48:08,138 - engine - INFO - bi=30, Train F1=0.599,Train loss=0.6985718607902527, time=32.173285245895386
+2020-10-01 19:48:18,729 - engine - INFO - bi=40, Train F1=0.562,Train loss=0.6966831088066101, time=42.764793395996094
+2020-10-01 19:48:29,344 - engine - INFO - bi=50, Train F1=0.581,Train loss=0.6910308599472046, time=53.38208842277527
+2020-10-01 19:48:39,925 - engine - INFO - bi=60, Train F1=0.57,Train loss=0.6930901408195496, time=63.96123647689819
+2020-10-01 19:48:50,515 - engine - INFO - bi=70, Train F1=0.553,Train loss=0.7011749148368835, time=74.54986548423767
+2020-10-01 19:49:01,108 - engine - INFO - bi=80, Train F1=0.55,Train loss=0.6951815485954285, time=85.14401841163635
+2020-10-01 19:49:11,693 - engine - INFO - bi=90, Train F1=0.553,Train loss=0.7027174830436707, time=95.729496717453
+2020-10-01 19:49:22,275 - engine - INFO - bi=100, Train F1=0.604,Train loss=0.693335235118866, time=106.31069374084473
+2020-10-01 19:49:32,861 - engine - INFO - bi=110, Train F1=0.594,Train loss=0.6889837980270386, time=116.89732241630554
+2020-10-01 19:49:43,449 - engine - INFO - bi=120, Train F1=0.536,Train loss=0.711521327495575, time=127.48426699638367
+2020-10-01 19:49:54,031 - engine - INFO - bi=130, Train F1=0.54,Train loss=0.6957836151123047, time=138.06719136238098
+2020-10-01 19:50:04,611 - engine - INFO - bi=140, Train F1=0.561,Train loss=0.6931759715080261, time=148.64633750915527
+2020-10-01 19:50:15,180 - engine - INFO - bi=150, Train F1=0.558,Train loss=0.6979020833969116, time=159.21523666381836
+2020-10-01 19:50:25,771 - engine - INFO - bi=160, Train F1=0.596,Train loss=0.6932158470153809, time=169.8070147037506
+2020-10-01 19:50:36,373 - engine - INFO - bi=170, Train F1=0.588,Train loss=0.702643096446991, time=180.4091284275055
+2020-10-01 19:50:46,960 - engine - INFO - bi=180, Train F1=0.594,Train loss=0.6896017789840698, time=190.98744750022888
+2020-10-01 19:51:02,120 - engine - INFO - bi=31, Avg_val F1=0.6441720724105835, Avg_val loss=0.6920767426490784 ,time=7.3694586753845215

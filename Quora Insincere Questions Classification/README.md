@@ -1,7 +1,7 @@
 # Quora Insincere Questions Classification [link](https://www.kaggle.com/c/quora-insincere-questions-classification/overview).
 
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
+[![Alt text](https://www.youtube.com/watch?v=VID)](https://www.youtube.com/watch?v=VID)
 
 The objective is to predict whether a question asked on Quora is sincere or not. Some characteristics that can signify that a question is insincere:
 

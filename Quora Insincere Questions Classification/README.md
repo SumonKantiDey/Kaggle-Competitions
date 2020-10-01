@@ -27,4 +27,6 @@ as input and return question label as sincere or insincere.
  <img src="https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/img/one.png" width="470" >
 <img src="https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/img/two.png" width="470" >
 </p>
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/demo/final.mp4)
+<p>
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+</p>

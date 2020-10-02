@@ -1,6 +1,5 @@
 # Quora Insincere Questions Classification [link](https://www.kaggle.com/c/quora-insincere-questions-classification/overview).
 
-[![ScreenShot](https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/demo/img.png)](http://www.youtube.com/watch?v=kDY5wuBxCZQ "WebApp")
 
 The objective is to predict whether a question asked on Quora is sincere or not. Some characteristics that can signify that a question is insincere:
 
@@ -25,10 +24,5 @@ Neural Network architecture:
 
 I have played a bit around with finetune [RoBERTa base transformer model](https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/roberta-insincerity-check.ipynb) and my aim is to load the model after training which will take a question 
 as input and return question label as sincere or insincere.
-<p align="center">
- <img src="https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/img/one.png" width="470" >
-<img src="https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/img/two.png" width="470" >
-</p>
-<p>
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
-</p>
+[![ScreenShot](https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/demo/img.png)](http://www.youtube.com/watch?v=kDY5wuBxCZQ "WebApp")
+

@@ -30,4 +30,3 @@ def my_form_post():
 if __name__ == "__main__":
     app.run()
     #app.run(debug=True, host="127.0.0.1", port=5002, threaded=True)
-# Is education really making good people nowadays? what are the simple and stylish names of mobile shops? how will you describe fascism?

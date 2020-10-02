@@ -25,5 +25,5 @@ Neural Network architecture:
 I have played a bit around with finetune [RoBERTa base transformer model](https://github.com/SumonKantiDey/Kaggle-Competitions/tree/master/Quora%20Insincere%20Questions%20Classification/src) and my aim is to load the model after training which will take a question 
 as input and return question label as sincere or insincere.
 
-[![ScreenShot](https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/demo/img.png)](https://www.youtube.com/watch?v=wwRHfboC3EU&feature=youtu.be)
+[![ScreenShot](https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/demo/image.png)](https://www.youtube.com/watch?v=wwRHfboC3EU&feature=youtu.be)
 

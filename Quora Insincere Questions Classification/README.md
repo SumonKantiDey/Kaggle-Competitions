@@ -2,7 +2,7 @@
 
 
 [![](http://img.youtube.com/vi/kDY5wuBxCZQ/0.jpg)](http://www.youtube.com/watch?v=kDY5wuBxCZQ "WebApp")
-[![ScreenShot](http://mykabir.info/d3Project1/VideoTeaserimg.jpg)](http://mykabir.info/d3Project1/VideoPresentation.mp4)
+[![ScreenShot](https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/demo/img.png)](http://www.youtube.com/watch?v=kDY5wuBxCZQ "WebApp")
 
 The objective is to predict whether a question asked on Quora is sincere or not. Some characteristics that can signify that a question is insincere:
 

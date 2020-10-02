@@ -19,7 +19,7 @@ Neural Network architecture:
 ```
 ## Model architecture (5 folds stacked GRU-60 hidden units with attention)
 <p align="center">
- <img src="https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/img/model.png" >
+ <img src="https://github.com/SumonKantiDey/Kaggle-Competitions/blob/master/Quora%20Insincere%20Questions%20Classification/demo/model.png" >
 </p>
 
 I have played a bit around with finetune [RoBERTa base transformer model](https://github.com/SumonKantiDey/Kaggle-Competitions/tree/master/Quora%20Insincere%20Questions%20Classification/src) and my aim is to load the model after training which will take a question 

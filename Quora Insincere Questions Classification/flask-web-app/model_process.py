@@ -37,7 +37,7 @@ class CustomRoberta(nn.Module):
 
 
 model = CustomRoberta()
-model.load_state_dict(torch.load('../models/insincerity_model.pt'),strict=False)
+model.load_state_dict(torch.load('insincerity_model.pt'),strict=False)
 
 device = torch.device("cuda")
 model = model.to(device)

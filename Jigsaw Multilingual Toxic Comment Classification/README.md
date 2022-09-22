@@ -12,7 +12,6 @@ The target of this competition is to build machine learning models that can iden
 - Label smoothing
 - Learning Rate scheduling
 - Multi-Stage Training (after training on english and translated data, finetuned further on validation dataset for 1-2 epochs.)
-- Used  RoBERTa XLM pre-trained models
 - Different architectures on top of XLM-Roberta
 - Finally used Ensemble Gmean of top score public submissions
 ```
